@@ -2,7 +2,7 @@
 
 A standard Next.js 16 / React 19 / TypeScript edition of Yorumi, prepared for a private GitHub repository and Vercel hosting at **yorumi.parmeshwornapit.com.np**.
 
-This source is prepared and locally validated. A GitHub repository, Vercel project, Supabase project, and DNS record have not yet been created by this migration.
+The site is deployed from `Parmeshwornapit/Yorumi-` on Vercel at https://yorumi.parmeshwornapit.com.np, with its existing Supabase project.
 
 ## Included
 
@@ -65,3 +65,13 @@ Credentials are intentionally absent from the repository. PostgreSQL connections
 - Placeholder conversion preserves quoted question marks and bound parameters.
 
 Hosted Supabase signup/email delivery, remote database access, private uploads, GitHub publication, Vercel deployment, and domain routing still require the account connections and production environment setup.
+
+## Sign-in repair — October 8, 2026
+
+The Vercel integration supplied `POSTGRES_URL`, while the original application only read `DATABASE_URL`. The missing schema and database connection prevented the profile bootstrap from completing, which made a valid authenticated session look signed out.
+
+The application and migration runner now accept `DATABASE_URL`, `POSTGRES_URL`, and `POSTGRES_PRISMA_URL`. Authentication accepts publishable and legacy anon-key names, and the sign-in page receives its public configuration from the server. Server secret keys are excluded from this public configuration. The session endpoint verifies a signed-in user independently of database availability; the interface shows an unavailable profile without claiming that the user is signed out.
+
+The production schema was initialized with row-level security and its migration checksum recorded. Supabase's site URL now uses the custom production domain, with an allowed callback at that domain. The sign-in form supports requesting a fresh email-confirmation link when needed.
+
+Regression checks: healthy bootstrap, verified identity surviving a data failure, anonymous behavior, failed identity verification, and integration-key/secret isolation. Run with `node --test tests/auth-bootstrap.test.mjs`.
