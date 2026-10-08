@@ -1,0 +1,3 @@
+import {NextResponse} from 'next/server';
+import {authClient} from '@/lib/supabase/server';
+export async function GET(request:Request){const url=new URL(request.url);const code=url.searchParams.get('code');const value=url.searchParams.get('return_to')||'/';const next=value.startsWith('/')&&!value.startsWith('//')&&!value.includes('\\')?value:'/';const client=await authClient();if(code&&client){const {error}=await client.auth.exchangeCodeForSession(code);if(!error)return NextResponse.redirect(new URL(next,url.origin));}return NextResponse.redirect(new URL('/signin?error=confirmation_failed',url.origin));}

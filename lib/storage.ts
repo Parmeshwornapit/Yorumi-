@@ -1,0 +1,5 @@
+import 'server-only';
+import {createClient} from '@supabase/supabase-js';
+function client(){if(!process.env.NEXT_PUBLIC_SUPABASE_URL||!process.env.SUPABASE_SERVICE_ROLE_KEY)throw Error('Image storage is not configured.');return createClient(process.env.NEXT_PUBLIC_SUPABASE_URL,process.env.SUPABASE_SERVICE_ROLE_KEY,{auth:{persistSession:false,autoRefreshToken:false}}).storage.from(process.env.SUPABASE_STORAGE_BUCKET||'yorumi-media');}
+const bucket={async put(id:string,bytes:Uint8Array,metadata:{httpMetadata:{contentType:string}}){const {error}=await client().upload(id,bytes,{contentType:metadata.httpMetadata.contentType,upsert:false});if(error)throw Error('Could not save this image.');},async get(id:string){const {data,error}=await client().download(id);if(error||!data)return null;return {body:await data.arrayBuffer(),httpMetadata:{contentType:data.type}}},async delete(id:string){const {error}=await client().remove([id]);if(error)throw Error('Could not remove this image.');}};
+export function storage(){if(!process.env.NEXT_PUBLIC_SUPABASE_URL||!process.env.SUPABASE_SERVICE_ROLE_KEY)return null;return bucket;}

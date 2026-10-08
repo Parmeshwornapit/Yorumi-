@@ -1,0 +1,4 @@
+import {NextResponse} from 'next/server';
+import type {EmailOtpType} from '@supabase/supabase-js';
+import {authClient} from '@/lib/supabase/server';
+export async function GET(request:Request){const url=new URL(request.url);const token_hash=url.searchParams.get('token_hash');const type=url.searchParams.get('type');const value=url.searchParams.get('next')||'/';const next=value.startsWith('/')&&!value.startsWith('//')&&!value.includes('\\')?value:'/';const client=await authClient();if(token_hash&&client&&['signup','recovery','magiclink','email_change','email'].includes(type||'')){const {error}=await client.auth.verifyOtp({token_hash,type:type as EmailOtpType});if(!error)return NextResponse.redirect(new URL(next,url.origin));}return NextResponse.redirect(new URL('/signin?error=confirmation_failed',url.origin));}
