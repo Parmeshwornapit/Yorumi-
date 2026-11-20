@@ -12,7 +12,7 @@ jobs:
   create-episode:
     if: vars.DAILY_MANGA_ENABLED == 'true'
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
         with:
@@ -20,7 +20,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Generate one original illustrated episode
+      - name: Generate one complete 24-panel episode
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: node scripts/daily-manga.mjs

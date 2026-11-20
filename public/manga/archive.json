@@ -44,12 +44,13 @@
           "caption": "To be continued.",
           "dialogue": "Fine. But you are signing for this."
         }
-      ]
+      ],
+      "preview": true
     }
   ],
   "automation": {
     "enabled": false,
-    "schedule": "Daily at 07:00 Asia/Katmandu",
+    "schedule": "Daily at 07:00 Nepal time · weekly chapters · new series/story every two weeks",
     "note": "Enable daily generation in GitHub repository settings after adding an OpenAI API key and setting a usage budget."
   }
 }
