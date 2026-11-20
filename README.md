@@ -75,3 +75,8 @@ The application and migration runner now accept `DATABASE_URL`, `POSTGRES_URL`, 
 The production schema was initialized with row-level security and its migration checksum recorded. Supabase's site URL now uses the custom production domain, with an allowed callback at that domain. The sign-in form supports requesting a fresh email-confirmation link when needed.
 
 Regression checks: healthy bootstrap, verified identity surviving a data failure, anonymous behavior, failed identity verification, and integration-key/secret isolation. Run with `node --test tests/auth-bootstrap.test.mjs`.
+
+## Build and database migrations
+
+The website build compiles with next build. Run npm run db:migrate explicitly when applying schema changes, using an authorized database connection. A database outage must not prevent static stories from building; account and shared-room features still require a working Supabase/PostgreSQL deployment.
+
