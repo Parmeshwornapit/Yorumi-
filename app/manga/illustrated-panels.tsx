@@ -12,6 +12,7 @@ export function IllustratedPanels({ crops, panels }: { crops: PanelCrop[]; panel
   return <div className="webtoon-panels">
     {crops.map((crop, index) => {
       const panel = panels[index];
+      const speaker = panel.dialogue.match(/^[\p{L}][\p{L} .’'-]{0,24}:\s+/u)?.[0] ?? '';
       return <figure className="webtoon-panel" key={index}>
         <div className="webtoon-panel-art" style={{ aspectRatio: crop.width / (crop.bottom - crop.top) }}>
           <img src={crop.image} alt={panel.scene} width={crop.width} height={crop.height}
@@ -19,7 +20,10 @@ export function IllustratedPanels({ crops, panels }: { crops: PanelCrop[]; panel
         </div>
         {(panel.dialogue || panel.caption) && <figcaption>
           {panel.caption && <span className="webtoon-narration">{panel.caption}</span>}
-          {panel.dialogue && <span className="webtoon-speech">{panel.dialogue}</span>}
+          {panel.dialogue && <span className="webtoon-speech">
+            {speaker && <span className="webtoon-speaker">{speaker}</span>}
+            {panel.dialogue.slice(speaker.length)}
+          </span>}
         </figcaption>}
       </figure>;
     })}
