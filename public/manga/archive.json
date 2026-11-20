@@ -1,0 +1,55 @@
+{
+  "episodes": [
+    {
+      "id": "cartographer-01",
+      "date": "2026-11-20",
+      "title": "The Cartographer of Missing Streets",
+      "premise": "Episode 01: Undeliverable. A courier discovers that a missing bridge has arrived in her delivery basket.",
+      "genre": "Urban fantasy · mystery",
+      "image": "/manga/cartographer-episode-01.png",
+      "aiGenerated": true,
+      "panels": [
+        {
+          "scene": "Ika brakes her bicycle at a vanished bridge on a rainy city river.",
+          "caption": "At 6:14, Bridge Street disappeared.",
+          "dialogue": ""
+        },
+        {
+          "scene": "Close-up of Ika in her orange rain jacket.",
+          "caption": "",
+          "dialogue": "That is going to make me late."
+        },
+        {
+          "scene": "A tiny glowing streetlamp emerges from the parcel in her basket.",
+          "caption": "",
+          "dialogue": "Please do not mark me undeliverable."
+        },
+        {
+          "scene": "Ika opens the parcel beneath a bakery awning.",
+          "caption": "",
+          "dialogue": "Who ordered a talking bridge? Someone who remembers where I belong."
+        },
+        {
+          "scene": "The delivery label reads HOME.",
+          "caption": "",
+          "dialogue": "There is no house there anymore."
+        },
+        {
+          "scene": "Inside the parcel, a glowing miniature road leads to a blue door.",
+          "caption": "",
+          "dialogue": "A house is not the same thing as a way home."
+        },
+        {
+          "scene": "Ika pedals over a luminous bridge forming beneath her wheels toward a portal.",
+          "caption": "To be continued.",
+          "dialogue": "Fine. But you are signing for this."
+        }
+      ]
+    }
+  ],
+  "automation": {
+    "enabled": false,
+    "schedule": "Daily at 07:00 Asia/Katmandu",
+    "note": "Enable daily generation in GitHub repository settings after adding an OpenAI API key and setting a usage budget."
+  }
+}

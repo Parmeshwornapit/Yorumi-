@@ -80,3 +80,19 @@ Regression checks: healthy bootstrap, verified identity surviving a data failure
 
 The website build compiles with next build. Run npm run db:migrate explicitly when applying schema changes, using an authorized database connection. A database outage must not prevent static stories from building; account and shared-room features still require a working Supabase/PostgreSQL deployment.
 
+
+## Illustrated webtoons and daily AI publishing
+
+The public reader is `/manga`; `/stories` opens the same illustrated reader. The prose stories remain at `/stories/prose`. Finished illustrated chapters and accessible transcripts are listed in `public/manga/archive.json`. Artwork uses actual generated PNGs; incomplete image requests never enter the archive.
+
+Daily generation is implemented by `.github/workflows/daily-manga.yml`, targeting 07:00 Nepal time (01:15 UTC). GitHub may delay scheduled runs. The workflow is intentionally gated until configured:
+
+1. Add `OPENAI_API_KEY` as a GitHub Actions repository secret. Use a dedicated OpenAI project and set its usage/budget controls in the provider dashboard. Never place a real key in source, a browser bundle, or chat.
+2. Set repository Actions variable `DAILY_MANGA_ENABLED` to `true` when ready to activate. The workflow then makes one text request and one image request per run, skips already-completed Nepal dates, and publishes only complete episodes. There are no automatic API retries. A manually repeated failed run can incur another request charge.
+3. Run **Daily original manga** from GitHub Actions to test, then allow the schedule to run. The workflow commits completed chapters to main, which triggers the existing Vercel deployment. Failures are reported in Actions; the last published archive stays available. Set the variable to `false` to stop generation.
+
+Default text model: `gpt-5-mini`. Default image model: `gpt-image-2.5-flare`. `OPENAI_STORY_MODEL` and `OPENAI_IMAGE_MODEL` can be set in the execution environment to change supported models. The API uses structured story output, six panel descriptions, and one illustrated comic strip. Generated output is marked as AI-generated; lettering and character consistency may occasionally need editorial review. This is a daily automated original mini-episode generator, not an unrestricted visitor chat interface. It does not need the app database.
+
+Verification: `node scripts/check-daily-manga.mjs` tests the Nepal date rollover, story validation, six-panel requirement, and image-prompt construction without making paid requests.
+
+First chapter art: `public/manga/cartographer-episode-01.png`, generated with the built-in image generation tool. Prompt brief: a seven-panel original full-color vertical webtoon following Ika, an adult courier with a short black bob, orange rain jacket and teal bicycle; a bridge disappears on a rainy neon riverfront, a talking parcel contains a tiny glowing streetlamp and blue doorway, and she rides a luminous bridge toward it. Modern crisp manhwa linework, consistent character design, legible English speech bubbles, single-column panel order, generous gutters, and original characters.
