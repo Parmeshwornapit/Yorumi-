@@ -1,6 +1,1128 @@
 {
   "episodes": [
     {
+      "id": "rain-counter",
+      "date": "2026-11-20",
+      "title": "The Rain Counter",
+      "premise": "A night courier finds a kiosk that takes memories as payment for the weather.",
+      "genre": "Urban fantasy",
+      "image": "/manga/rain-counter-1.webp",
+      "aiGenerated": true,
+      "panels": [
+        {
+          "scene": "Sena cycles downhill through torrents",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "She finds a dry circle around a glowing kiosk",
+          "caption": "The rain stopped at the edge of a circle.",
+          "dialogue": ""
+        },
+        {
+          "scene": "Dawa lifts the shutter",
+          "caption": "",
+          "dialogue": "Dawa: Last purchase of the night."
+        },
+        {
+          "scene": "A brass meter displays a falling droplet",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "Sena holds out a wet coin",
+          "caption": "",
+          "dialogue": "Sena: I’ll pay for five dry minutes."
+        },
+        {
+          "scene": "Dawa points to a shelf of bottled memories",
+          "caption": "",
+          "dialogue": "Dawa: We don’t take money."
+        },
+        {
+          "scene": "Dawa shows a bottle containing a laughing child",
+          "caption": "",
+          "dialogue": "Dawa: Some people sell the happiest thing they remember."
+        },
+        {
+          "scene": "Sena asks what bought the storm",
+          "caption": "",
+          "dialogue": "Sena: Then who paid for this?"
+        },
+        {
+          "scene": "Dawa reveals a sealed jar with a drawing of a small dog",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "Sena recognizes her childhood dog from the label",
+          "caption": "",
+          "dialogue": "Sena: That’s my dog. That’s his crooked ear."
+        },
+        {
+          "scene": "She reaches for it and the clouds bulge",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "Dawa catches her wrist gently",
+          "caption": "",
+          "dialogue": "Dawa: Wait. Unpaid weather collects interest."
+        },
+        {
+          "scene": "Sena sees floodwater rising toward a basement window",
+          "caption": "The river had reached the basement windows.",
+          "dialogue": ""
+        },
+        {
+          "scene": "A child inside bangs on the glass",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "Dawa sets the jar on a brass scale",
+          "caption": "",
+          "dialogue": "Dawa: A memory for a memory. That’s the rule."
+        },
+        {
+          "scene": "The scale demands a new memory to free the old one",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "Sena recalls her dog waiting on the doorstep",
+          "caption": "Every evening, he waited at the door.",
+          "dialogue": ""
+        },
+        {
+          "scene": "She looks from the memory to the trapped child",
+          "caption": "",
+          "dialogue": "Sena: You can have the face in that window."
+        },
+        {
+          "scene": "Sena puts a fresh memory of the child's face on the scale",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "The old jar opens, but the rain grows fiercer",
+          "caption": "The kiosk had promised her one thing and taken another.",
+          "dialogue": ""
+        },
+        {
+          "scene": "Sena notices an empty switch marked with a sun icon",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "She lifts both jars off the scale at once",
+          "caption": "",
+          "dialogue": "Sena: Take your hands off the scale."
+        },
+        {
+          "scene": "Dawa pulls the sun lever",
+          "caption": "",
+          "dialogue": "Dawa: I haven’t done this in years."
+        },
+        {
+          "scene": "The weather meter cracks into a spray of gold",
+          "caption": "Finally, the rain ran out of things to say.",
+          "dialogue": ""
+        },
+        {
+          "scene": "Sena and Dawa pull the child out of the basement",
+          "caption": "",
+          "dialogue": "Sena: Hold on. I’ve got you."
+        },
+        {
+          "scene": "The child runs to a relieved parent",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "Dawa opens the kiosk windows and lets bottled memories fly",
+          "caption": "",
+          "dialogue": "Dawa: If they come looking, tell them the shop is closed."
+        },
+        {
+          "scene": "In morning light Sena finds the old dog's collar in her bag",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "She cannot remember the child's face but recognizes their little yellow umbrella",
+          "caption": "She remembered the umbrella. She remembered what she had done.",
+          "dialogue": ""
+        },
+        {
+          "scene": "Sena cycles home behind the umbrella as the sun breaks through",
+          "caption": "That turned out to be enough.",
+          "dialogue": ""
+        }
+      ],
+      "panelCrops": [
+        {
+          "image": "/manga/rain-counter-1.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 0,
+          "bottom": 250
+        },
+        {
+          "image": "/manga/rain-counter-1.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 255,
+          "bottom": 523
+        },
+        {
+          "image": "/manga/rain-counter-1.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 527,
+          "bottom": 774
+        },
+        {
+          "image": "/manga/rain-counter-1.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 779,
+          "bottom": 1006
+        },
+        {
+          "image": "/manga/rain-counter-1.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 1011,
+          "bottom": 1242
+        },
+        {
+          "image": "/manga/rain-counter-1.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 1247,
+          "bottom": 1536
+        },
+        {
+          "image": "/manga/rain-counter-2.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 2,
+          "bottom": 252
+        },
+        {
+          "image": "/manga/rain-counter-2.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 257,
+          "bottom": 504
+        },
+        {
+          "image": "/manga/rain-counter-2.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 509,
+          "bottom": 764
+        },
+        {
+          "image": "/manga/rain-counter-2.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 768,
+          "bottom": 1023
+        },
+        {
+          "image": "/manga/rain-counter-2.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 1027,
+          "bottom": 1277
+        },
+        {
+          "image": "/manga/rain-counter-2.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 1281,
+          "bottom": 1533
+        },
+        {
+          "image": "/manga/rain-counter-3.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 0,
+          "bottom": 276
+        },
+        {
+          "image": "/manga/rain-counter-3.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 282,
+          "bottom": 537
+        },
+        {
+          "image": "/manga/rain-counter-3.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 544,
+          "bottom": 803
+        },
+        {
+          "image": "/manga/rain-counter-3.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 809,
+          "bottom": 1060
+        },
+        {
+          "image": "/manga/rain-counter-3.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 1065,
+          "bottom": 1306
+        },
+        {
+          "image": "/manga/rain-counter-3.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 1312,
+          "bottom": 1536
+        },
+        {
+          "image": "/manga/rain-counter-4.webp",
+          "width": 887,
+          "height": 1774,
+          "top": 0,
+          "bottom": 290
+        },
+        {
+          "image": "/manga/rain-counter-4.webp",
+          "width": 887,
+          "height": 1774,
+          "top": 294,
+          "bottom": 586
+        },
+        {
+          "image": "/manga/rain-counter-4.webp",
+          "width": 887,
+          "height": 1774,
+          "top": 590,
+          "bottom": 881
+        },
+        {
+          "image": "/manga/rain-counter-4.webp",
+          "width": 887,
+          "height": 1774,
+          "top": 886,
+          "bottom": 1177
+        },
+        {
+          "image": "/manga/rain-counter-4.webp",
+          "width": 887,
+          "height": 1774,
+          "top": 1182,
+          "bottom": 1473
+        },
+        {
+          "image": "/manga/rain-counter-4.webp",
+          "width": 887,
+          "height": 1774,
+          "top": 1477,
+          "bottom": 1774
+        },
+        {
+          "image": "/manga/rain-counter-5.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 0,
+          "bottom": 246
+        },
+        {
+          "image": "/manga/rain-counter-5.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 253,
+          "bottom": 489
+        },
+        {
+          "image": "/manga/rain-counter-5.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 495,
+          "bottom": 742
+        },
+        {
+          "image": "/manga/rain-counter-5.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 748,
+          "bottom": 991
+        },
+        {
+          "image": "/manga/rain-counter-5.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 997,
+          "bottom": 1232
+        },
+        {
+          "image": "/manga/rain-counter-5.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 1239,
+          "bottom": 1536
+        }
+      ],
+      "preview": false
+    },
+    {
+      "id": "moon-laundry",
+      "date": "2026-11-20",
+      "title": "Moon Laundry",
+      "premise": "A laundromat attendant discovers a customer has been washing the moon to erase a last goodbye.",
+      "genre": "Supernatural slice of life",
+      "image": "/manga/moon-laundry-1.webp",
+      "aiGenerated": true,
+      "panels": [
+        {
+          "scene": "Ari folds towels under fluorescent lights at midnight",
+          "caption": "The laundromat stayed open for people whose days ran long.",
+          "dialogue": ""
+        },
+        {
+          "scene": "Min enters carrying a linen bag that floats",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "He pulls a tiny glowing crescent out of his bag",
+          "caption": "",
+          "dialogue": "Ari: Is that the moon?"
+        },
+        {
+          "scene": "He loads the crescent into a washing machine",
+          "caption": "",
+          "dialogue": "Min: Gentle cycle."
+        },
+        {
+          "scene": "Ari leans close as stars appear behind the glass",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "A shadow on the moon takes the shape of a hand waving goodbye",
+          "caption": "The same hand had been waving since he came in.",
+          "dialogue": ""
+        },
+        {
+          "scene": "Min pours detergent with trembling fingers",
+          "caption": "",
+          "dialogue": "Ari: You’ve washed it before."
+        },
+        {
+          "scene": "Ari notices the same handprint on his coat sleeve",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "Min opens a photo wallet showing his smiling adult sister",
+          "caption": "",
+          "dialogue": "Min: My sister. Her last trip home."
+        },
+        {
+          "scene": "The washing machine turns the moon to a full bright disk",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "Min's reflection smiles but his face does not",
+          "caption": "The reflection could pretend. Min couldn’t.",
+          "dialogue": ""
+        },
+        {
+          "scene": "Ari reaches for the power switch before he can wash again",
+          "caption": "",
+          "dialogue": "Ari: Let it stop for a minute."
+        },
+        {
+          "scene": "Min tries to explain beside the still machine",
+          "caption": "",
+          "dialogue": "Min: I wanted that night to hurt less."
+        },
+        {
+          "scene": "Flashback: his sister waves from a late-night bus",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "Flashback: Min watches the bus leave without waving back",
+          "caption": "He used to think he would catch the next bus.",
+          "dialogue": ""
+        },
+        {
+          "scene": "Present: Min stares at an empty bus stop across the street",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "Ari retrieves a spare sock from a lost-property basket",
+          "caption": "",
+          "dialogue": "Ari: I keep the singles. People come back for them."
+        },
+        {
+          "scene": "She compares the lost sock to the moon beside its matching half",
+          "caption": "",
+          "dialogue": "Ari: Sometimes they only want to know where they went."
+        },
+        {
+          "scene": "Ari puts the damp moon on the counter",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "Min presses his hand beside the handprint",
+          "caption": "His hand fit the space beside hers.",
+          "dialogue": ""
+        },
+        {
+          "scene": "Ari opens the laundromat door to the cold night",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "Min raises his hand toward the sky beside her",
+          "caption": "",
+          "dialogue": "Min: Hi, sis."
+        },
+        {
+          "scene": "The shadow hand rises on the moon's surface to meet his silhouette",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "Min smiles and opens the window above the dryer",
+          "caption": "The window stuck, then gave.",
+          "dialogue": ""
+        },
+        {
+          "scene": "The glowing moon drifts upward out the window",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "Ari and Min watch it grow in the sky",
+          "caption": "By the time it reached the roofs, it was the size a moon ought to be.",
+          "dialogue": ""
+        },
+        {
+          "scene": "Min slips the photo back into his wallet with a softer expression",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "Ari hangs the misplaced sock on a clothesline",
+          "caption": "Somewhere a sock was waiting to be found.",
+          "dialogue": ""
+        },
+        {
+          "scene": "Min sets two hot drinks on the folding table",
+          "caption": "",
+          "dialogue": "Min: Tea? I got two."
+        },
+        {
+          "scene": "Wide dawn view of the two in the laundromat under a faint full moon",
+          "caption": "Neither of them checked the time.",
+          "dialogue": ""
+        }
+      ],
+      "panelCrops": [
+        {
+          "image": "/manga/moon-laundry-1.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 0,
+          "bottom": 243
+        },
+        {
+          "image": "/manga/moon-laundry-1.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 248,
+          "bottom": 497
+        },
+        {
+          "image": "/manga/moon-laundry-1.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 502,
+          "bottom": 741
+        },
+        {
+          "image": "/manga/moon-laundry-1.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 746,
+          "bottom": 1006
+        },
+        {
+          "image": "/manga/moon-laundry-1.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 1010,
+          "bottom": 1250
+        },
+        {
+          "image": "/manga/moon-laundry-1.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 1255,
+          "bottom": 1536
+        },
+        {
+          "image": "/manga/moon-laundry-2.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 0,
+          "bottom": 247
+        },
+        {
+          "image": "/manga/moon-laundry-2.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 253,
+          "bottom": 510
+        },
+        {
+          "image": "/manga/moon-laundry-2.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 516,
+          "bottom": 766
+        },
+        {
+          "image": "/manga/moon-laundry-2.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 771,
+          "bottom": 1019
+        },
+        {
+          "image": "/manga/moon-laundry-2.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 1024,
+          "bottom": 1279
+        },
+        {
+          "image": "/manga/moon-laundry-2.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 1284,
+          "bottom": 1536
+        },
+        {
+          "image": "/manga/moon-laundry-3.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 0,
+          "bottom": 260
+        },
+        {
+          "image": "/manga/moon-laundry-3.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 264,
+          "bottom": 492
+        },
+        {
+          "image": "/manga/moon-laundry-3.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 496,
+          "bottom": 733
+        },
+        {
+          "image": "/manga/moon-laundry-3.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 737,
+          "bottom": 968
+        },
+        {
+          "image": "/manga/moon-laundry-3.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 971,
+          "bottom": 1215
+        },
+        {
+          "image": "/manga/moon-laundry-3.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 1218,
+          "bottom": 1536
+        },
+        {
+          "image": "/manga/moon-laundry-4.webp",
+          "width": 887,
+          "height": 1774,
+          "top": 2,
+          "bottom": 293
+        },
+        {
+          "image": "/manga/moon-laundry-4.webp",
+          "width": 887,
+          "height": 1774,
+          "top": 297,
+          "bottom": 588
+        },
+        {
+          "image": "/manga/moon-laundry-4.webp",
+          "width": 887,
+          "height": 1774,
+          "top": 592,
+          "bottom": 887
+        },
+        {
+          "image": "/manga/moon-laundry-4.webp",
+          "width": 887,
+          "height": 1774,
+          "top": 890,
+          "bottom": 1180
+        },
+        {
+          "image": "/manga/moon-laundry-4.webp",
+          "width": 887,
+          "height": 1774,
+          "top": 1183,
+          "bottom": 1476
+        },
+        {
+          "image": "/manga/moon-laundry-4.webp",
+          "width": 887,
+          "height": 1774,
+          "top": 1480,
+          "bottom": 1771
+        },
+        {
+          "image": "/manga/moon-laundry-5.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 0,
+          "bottom": 214
+        },
+        {
+          "image": "/manga/moon-laundry-5.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 224,
+          "bottom": 484
+        },
+        {
+          "image": "/manga/moon-laundry-5.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 494,
+          "bottom": 791
+        },
+        {
+          "image": "/manga/moon-laundry-5.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 800,
+          "bottom": 1064
+        },
+        {
+          "image": "/manga/moon-laundry-5.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 1074,
+          "bottom": 1312
+        },
+        {
+          "image": "/manga/moon-laundry-5.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 1321,
+          "bottom": 1536
+        }
+      ],
+      "preview": false
+    },
+    {
+      "id": "last-exit",
+      "date": "2026-11-20",
+      "title": "The Last Exit",
+      "premise": "A maintenance worker discovers an evacuation train that cannot leave until one forgotten passenger is found.",
+      "genre": "Sci-fi mystery",
+      "image": "/manga/last-exit-1.webp",
+      "aiGenerated": true,
+      "panels": [
+        {
+          "scene": "Jo stands alone at an underground station under emergency lights",
+          "caption": "The last exit was due to seal at dawn.",
+          "dialogue": ""
+        },
+        {
+          "scene": "She kneels to repair a blinking floor sign",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "A silver evacuation train slides in silently",
+          "caption": "The evacuation train arrived without a sound.",
+          "dialogue": ""
+        },
+        {
+          "scene": "Kei leans out and checks a punched paper roster",
+          "caption": "",
+          "dialogue": "Kei: We’re one short."
+        },
+        {
+          "scene": "Jo shows him a clean empty platform",
+          "caption": "",
+          "dialogue": "Jo: I cleared the station myself."
+        },
+        {
+          "scene": "The last carriage door blinks one red light",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "Kei and Jo enter the empty carriage",
+          "caption": "",
+          "dialogue": "Jo: Empty."
+        },
+        {
+          "scene": "A passenger count display shows a single missing silhouette",
+          "caption": "",
+          "dialogue": "Kei: The train disagrees."
+        },
+        {
+          "scene": "Jo follows tiny paw prints beside the seats",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "She finds a chewed cable below a bench",
+          "caption": "Something had been chewing on the platform sensors.",
+          "dialogue": ""
+        },
+        {
+          "scene": "Kei lifts a colorful photograph of an old station cat from a display",
+          "caption": "The station’s oldest employee had never punched a card.",
+          "dialogue": ""
+        },
+        {
+          "scene": "Jo hears a scratching sound from behind the timetable",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "Jo pulls the timetable aside and finds a tiny speaker",
+          "caption": "",
+          "dialogue": "Jo: The speaker is picking up the office vent."
+        },
+        {
+          "scene": "Kei checks a wall clock as the water alarm turns red",
+          "caption": "",
+          "dialogue": "Kei: We have two minutes."
+        },
+        {
+          "scene": "In a distant station office a white cat with one black ear paws at a vent",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "Jo follows cables to a lowering floodgate",
+          "caption": "The floodgate began to lower.",
+          "dialogue": ""
+        },
+        {
+          "scene": "Kei wedges his conductor bag under the floodgate",
+          "caption": "",
+          "dialogue": "Kei: Go. I’ll hold it as long as the bag lasts."
+        },
+        {
+          "scene": "Jo crawls underneath toward the office",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "Jo sees the white cat trapped behind bent vent bars",
+          "caption": "",
+          "dialogue": "Jo: So this is where you’ve been sleeping."
+        },
+        {
+          "scene": "She takes a bolt cutter off her red utility belt",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "The cat backs away as sparks flash from a nearby cable",
+          "caption": "The cat pressed back against the vent wall.",
+          "dialogue": ""
+        },
+        {
+          "scene": "Jo offers its favorite toy mouse from the office desk",
+          "caption": "",
+          "dialogue": "Jo: Remember this?"
+        },
+        {
+          "scene": "The cat puts one paw through the opening",
+          "caption": "One paw. Then another.",
+          "dialogue": ""
+        },
+        {
+          "scene": "Jo scoops the cat up as the floodgate crushes the bag",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "Jo passes the cat up through a service hatch to Kei",
+          "caption": "",
+          "dialogue": "Jo: Passenger for you!"
+        },
+        {
+          "scene": "Kei pulls Jo onto the platform as water fills the tunnel",
+          "caption": "",
+          "dialogue": "Kei: I count two."
+        },
+        {
+          "scene": "Jo and Kei hurry onboard with the cat",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "The red passenger silhouette finally turns green",
+          "caption": "For the first time that night, the door turned green.",
+          "dialogue": ""
+        },
+        {
+          "scene": "The train emerges above ground into sunrise",
+          "caption": "",
+          "dialogue": ""
+        },
+        {
+          "scene": "Jo sits beside Kei with the cat asleep on the paper roster",
+          "caption": "The passenger slept straight through arrival.",
+          "dialogue": ""
+        }
+      ],
+      "panelCrops": [
+        {
+          "image": "/manga/last-exit-1.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 0,
+          "bottom": 273
+        },
+        {
+          "image": "/manga/last-exit-1.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 279,
+          "bottom": 554
+        },
+        {
+          "image": "/manga/last-exit-1.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 560,
+          "bottom": 798
+        },
+        {
+          "image": "/manga/last-exit-1.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 803,
+          "bottom": 1055
+        },
+        {
+          "image": "/manga/last-exit-1.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 1060,
+          "bottom": 1296
+        },
+        {
+          "image": "/manga/last-exit-1.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 1300,
+          "bottom": 1536
+        },
+        {
+          "image": "/manga/last-exit-2.webp",
+          "width": 887,
+          "height": 1774,
+          "top": 0,
+          "bottom": 286
+        },
+        {
+          "image": "/manga/last-exit-2.webp",
+          "width": 887,
+          "height": 1774,
+          "top": 292,
+          "bottom": 584
+        },
+        {
+          "image": "/manga/last-exit-2.webp",
+          "width": 887,
+          "height": 1774,
+          "top": 590,
+          "bottom": 893
+        },
+        {
+          "image": "/manga/last-exit-2.webp",
+          "width": 887,
+          "height": 1774,
+          "top": 899,
+          "bottom": 1178
+        },
+        {
+          "image": "/manga/last-exit-2.webp",
+          "width": 887,
+          "height": 1774,
+          "top": 1184,
+          "bottom": 1476
+        },
+        {
+          "image": "/manga/last-exit-2.webp",
+          "width": 887,
+          "height": 1774,
+          "top": 1482,
+          "bottom": 1774
+        },
+        {
+          "image": "/manga/last-exit-3.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 5,
+          "bottom": 247
+        },
+        {
+          "image": "/manga/last-exit-3.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 258,
+          "bottom": 509
+        },
+        {
+          "image": "/manga/last-exit-3.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 517,
+          "bottom": 764
+        },
+        {
+          "image": "/manga/last-exit-3.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 772,
+          "bottom": 1023
+        },
+        {
+          "image": "/manga/last-exit-3.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 1027,
+          "bottom": 1286
+        },
+        {
+          "image": "/manga/last-exit-3.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 1294,
+          "bottom": 1536
+        },
+        {
+          "image": "/manga/last-exit-4.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 2,
+          "bottom": 259
+        },
+        {
+          "image": "/manga/last-exit-4.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 266,
+          "bottom": 511
+        },
+        {
+          "image": "/manga/last-exit-4.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 517,
+          "bottom": 738
+        },
+        {
+          "image": "/manga/last-exit-4.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 744,
+          "bottom": 974
+        },
+        {
+          "image": "/manga/last-exit-4.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 980,
+          "bottom": 1192
+        },
+        {
+          "image": "/manga/last-exit-4.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 1198,
+          "bottom": 1536
+        },
+        {
+          "image": "/manga/last-exit-5.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 0,
+          "bottom": 255
+        },
+        {
+          "image": "/manga/last-exit-5.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 258,
+          "bottom": 505
+        },
+        {
+          "image": "/manga/last-exit-5.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 511,
+          "bottom": 763
+        },
+        {
+          "image": "/manga/last-exit-5.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 767,
+          "bottom": 1026
+        },
+        {
+          "image": "/manga/last-exit-5.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 1031,
+          "bottom": 1258
+        },
+        {
+          "image": "/manga/last-exit-5.webp",
+          "width": 1024,
+          "height": 1536,
+          "top": 1263,
+          "bottom": 1536
+        }
+      ],
+      "preview": false
+    },
+    {
       "id": "cartographer-01",
       "date": "2026-11-20",
       "title": "The Cartographer of Missing Streets",
